@@ -1,0 +1,85 @@
+body{
+    margin-top: -147px;
+    margin-left: -147px;
+    background-color: #191A1D;
+    display: inline;
+    text-align: center;
+    color: #DEE5DB;
+    font-family: 'Comfortaa';
+}
+
+button{
+    text-align: center;
+    color: #DEE5DB;
+    font-family: 'Comfortaa';
+    outline: none;
+}
+
+.mainBoard{
+    margin-left: auto;
+    margin-right: auto;
+    width: 295px;
+    height: 295px;
+    background-color: #87AEB4;
+    display: block;
+}
+
+.row{
+    display: flex;
+}
+
+.boardCell{
+    background-color: #191A1D;
+    width: 85px;
+    height: 85px;
+    margin: 10px 0px 0px 10px;
+    
+    font-size: 85px;
+    top: 50%;
+    border: 0px;
+    padding: 0px;
+    
+}
+
+.boardCell:hover{
+    background-color: #2C2E33;
+}
+
+.topTitle{
+    height: 50%;
+    font-size: 85px;
+    padding-top: 100px;
+}
+
+.nextMoveTitle{
+    height: 50%;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+.retryButton{
+    margin-top: 50px;
+    background: #191A1D;
+    height: 90px;
+    width: 300px;
+    border: 1px solid #DEE5DB;
+    border-radius: 40px;
+    font-size: 45px;
+    cursor: pointer;
+}
+
+.retryButton:disabled{
+    visibility: hidden;
+}
+
+/* colors:
+    red1:   #DB2B30  // the lightest
+    red2:   #8F1D2C
+    red3:   #5A142A
+    red4:   #400D2A
+    red5:   #140A25
+
+    A1CFD6
+
+    DEE5DB
+*/  
